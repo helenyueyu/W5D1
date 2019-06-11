@@ -1,0 +1,46 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between; 
+  padding: 1.2em; 
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex; 
+  align-items: flex-start; 
+}
+
+.left-nav > ul > li {
+  font-family: Arial; 
+  font-size: 1em; 
+  text-transform: uppercase; 
+  font-weight: bold
+  
+}
+.left-nav > ul > li:nth-child(1) {
+  margin-right: 2.5em;
+  
+}
+.right-nav > ul > li {
+
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+background-color: rgb(205, 203, 203);
+
+}
+
+.left-nav span {
+  margin: 0.5em; 
+}
+
+
+.right-nav i {
+font-size: 1.5em;
+	margin: auto
+}

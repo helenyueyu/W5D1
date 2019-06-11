@@ -1,0 +1,13 @@
+.section_nav {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around; 
+}
+
+#all:hover {
+  text-decoration: underline; 
+}
+
+.not_all:hover {
+  background-color: $lightest_gray; 
+}
